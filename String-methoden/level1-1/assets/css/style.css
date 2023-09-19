@@ -1,0 +1,19 @@
+.highlight {
+    background-color: yellow;
+  }
+  article{
+    padding: 10px;
+    border: 1px solid red;
+  }
+  section{
+    border: 2px solid green;
+    padding: 5px;
+    margin-bottom: 50px;
+  }
+  form {
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  

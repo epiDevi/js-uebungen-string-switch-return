@@ -1,0 +1,2 @@
+let Name="Sepideh", Nachname= "Ghanbary", Alter= "20 ;)", Geburtsort="Behshahr", Größe= 162, Gewicht=57, Hobbys= "lesen", Computerspiele= "keine", Lieblingsessen = "alles" , Lieblingssport="keine ;)", Lieblingsmodemarke="Keine", Lieblingsjahreszeit="alles ausse Winter", Lieblingsurlaubsort="XYZ";
+console.log(`Main Name ist ${Name} ${Nachname} , ich bin ${Alter} Jahre ALt und komme aus ${Geburtsort}`);

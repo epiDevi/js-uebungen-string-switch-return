@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Conditional</title>
+  </head>
+  <body>
+    <section>
+      <form onsubmit="return false">
+      <input type="number"  id="num" />
+      <input type="button" id="search-button" value="Check" onclick="check()" />
+      </form>
+      <p id="output"></p>
+    </section>
+    <section>
+      <h1>Passwortüberprüfung</h1>
+      <form onsubmit="return false">
+        <input type="password"  id="pass" />
+        <input type="button" id="search-button" value="Save" onclick="checkPass()" />
+        </form>
+        <p id="outputPass"></p>
+    </section>
+    <section>
+      <div class="style">
+        <input id="bundeslandInfo" type="text" placeholder="Schreibe Bundesland">
+        <input type="button" value="Check" onclick="checkBundesland()">
+        <div id="bundeslandInfoErgebnis"></div>
+    </div>
+    </section>
+    
+    <script src="./assets/js/main.js" type="text/javascript"></script>
+  </body>
+</html>
